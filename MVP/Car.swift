@@ -23,7 +23,8 @@ class Car_Left1 : SKSpriteNode, ContactDelegate {
     }
     
     func configPhysics() -> Void {
-        self.physicsBody = SKPhysicsBody(rectangleOf: self.size)
+        print("configPhysics");
+        self.physicsBody = SKPhysicsBody(rectangleOf: SKTexture(imageNamed: "car_red copy").size())
         self.physicsBody?.collisionBitMask = 0
         self.physicsBody?.linearDamping = 0
         self.physicsBody?.categoryBitMask = BitMasks.CAR_LEFT

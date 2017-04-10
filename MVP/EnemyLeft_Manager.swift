@@ -25,7 +25,7 @@ class Enemy_Left_Manager {
             let ItemNode = Enemy(imageNamed: "Untitled-2.png")
             ItemNode.anchorPoint = CGPoint(x: 0.5, y: 0.5)
             ItemNode.position = CGPoint(x: self.scene.size.width / 4, y: self.scene.size.height + self.scene.size.height / 10)
-            ItemNode.size = CGSize(width: self.scene.size.width / 7, height: self.scene.size.height / 8)
+       //     ItemNode.size = CGSize(width: self.scene.size.width / 7, height: self.scene.size.height / 8)
             ItemNode.zRotation = CGFloat(M_PI / 1)
             
             print("vao 1")

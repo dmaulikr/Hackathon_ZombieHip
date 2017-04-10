@@ -14,7 +14,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
     var imageGameover = SKSpriteNode(fileNamed: "gameover.png")
     
     let car_left = Car_Left1(imageNamed: "car_red copy.png")
-    let car_right = Car_Right(imageNamed: "blue_car.png")
+   // let car_right = Car_Right(imageNamed: "blue_car.png")
     
     let background = SKSpriteNode(imageNamed: "backgroun2.png")
     let background2 = SKSpriteNode(imageNamed: "backgroun2.png")
@@ -68,7 +68,9 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
         
         addChild(background)
         addChild(background2)
-    }
+        
+        //print("did move to view")
+        }
     
     func configPhysics() -> Void {
         self.physicsWorld.gravity = CGVector(dx: 0, dy: 0)
@@ -84,15 +86,17 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
             return
         }
         
+        print("\(nodeA.name) collided with \(nodeB.name)")
+        
         if let contactDelegateA = nodeA as? ContactDelegate {
             contactDelegateA.didContact(other: nodeB)
-           // afterCollision()
+            afterCollision()
             print("aaaa")
         }
         
         if let contactDelegateB = nodeB as? ContactDelegate {
             contactDelegateB.didContact(other: nodeA)
-           // afterCollision()
+            afterCollision()
             print("bbbbb")
         }
 
@@ -102,13 +106,13 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
     
     func addCar() -> Void {
         car_left.position = CGPoint(x: self.size.width / 4, y: 70)
-        car_left.size = CGSize(width: self.size.width / 10, height: self.size.height / 12)
+     //   car_left.size = CGSize(width: self.size.width / 10, height: self.size.height / 12)
         
-        car_right.position = CGPoint(x: self.size.width * 0.59 , y: 70)
-        car_right.size = CGSize(width: self.size.width / 10, height: self.size.height / 12)
+        //car_right.position = CGPoint(x: self.size.width * 0.59 , y: 70)
+//        car_right.size = CGSize(width: self.size.width / 10, height: self.size.height / 12)
         
         self.addChild(car_left)
-        self.addChild(car_right)
+//        self.addChild(car_right)
     }
     
     func car_left_move_right() -> Void {
@@ -135,20 +139,20 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
         let path = CGMutablePath()
         path.move(to: CGPoint(x:  rightCarMinimumX, y: 69)) // 188 // 240
         path.addCurve(to: CGPoint(x: rightCarMaximumX, y: 69), control1: CGPoint(x: 190, y: 70), control2: CGPoint(x: 209, y: 70))
-        car_right.zRotation = CGFloat(-(Double.pi / 7))
-        car_right.run(.follow(path, asOffset: false, orientToPath: false, speed: 280)) {
-            self.car_right.zRotation = CGFloat(Double.pi / 100)
-        }
+//        car_right.zRotation = CGFloat(-(Double.pi / 7))
+//        car_right.run(.follow(path, asOffset: false, orientToPath: false, speed: 280)) {
+//            self.car_right.zRotation = CGFloat(Double.pi / 100)
+//        }
     }
     
     func car_right_move_left() -> Void {
         let path = CGMutablePath()
         path.move(to: CGPoint(x:  rightCarMaximumX, y: 69))
         path.addCurve(to: CGPoint(x: rightCarMinimumX, y: 69), control1: CGPoint(x: 190, y: 70), control2: CGPoint(x: 209, y: 70))
-        car_right.zRotation = CGFloat(Double.pi / 7)
-        car_right.run(.follow(path, asOffset: false, orientToPath: false, speed: 280)) {
-            self.car_right.zRotation = CGFloat(Double.pi / 100)
-        }
+//        car_right.zRotation = CGFloat(Double.pi / 7)
+//        car_right.run(.follow(path, asOffset: false, orientToPath: false, speed: 280)) {
+//            self.car_right.zRotation = CGFloat(Double.pi / 100)
+//        }
     }
     
     
@@ -209,13 +213,13 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
     
     func moveCarRight() {
         if righToMoveRight {
-            if car_right.position.x > rightCarMinimumX {
-                car_right_move_left()
-            }
+//            if car_right.position.x > rightCarMinimumX {
+//                car_right_move_left()
+//            }
         }
         else {
-            if car_right.position.x  < rightCarMaximumX {
-                car_right_move_right()            }
+//            if car_right.position.x  < rightCarMaximumX {
+//                car_right_move_right()            }
         }
     }
     

@@ -12,8 +12,8 @@ import SpriteKit
 struct BitMasks {
     static let CAR_LEFT : UInt32 = 1
     static let CAR_RIGHT : UInt32 = 2
-    static let ITEM_LEFT : UInt32 = 3
-    static let ITEM_RIGHT : UInt32 = 4
+    static let ITEM_LEFT : UInt32 = 4
+    static let ITEM_RIGHT : UInt32 = 8
 }
 
 struct Names {

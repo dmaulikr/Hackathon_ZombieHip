@@ -31,13 +31,19 @@
 		11F72EEA1E99ECB500F8311E /* Enemy_Right.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F72EE91E99ECB500F8311E /* Enemy_Right.swift */; };
 		11F72EEC1E99ED8600F8311E /* EnemyLeft_Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F72EEB1E99ED8600F8311E /* EnemyLeft_Manager.swift */; };
 		11F72EEE1E99EDEB00F8311E /* EnemyRight_Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F72EED1E99EDEB00F8311E /* EnemyRight_Manager.swift */; };
-		84E039031E9A1A6400FB039A /* GameOver.png in Resources */ = {isa = PBXBuildFile; fileRef = 84E039021E9A1A6400FB039A /* GameOver.png */; };
-		84E039061E9A1D4E00FB039A /* ride.png in Resources */ = {isa = PBXBuildFile; fileRef = 84E039041E9A1D4E00FB039A /* ride.png */; };
-		84E039071E9A1D4E00FB039A /* shop.png in Resources */ = {isa = PBXBuildFile; fileRef = 84E039051E9A1D4E00FB039A /* shop.png */; };
-		84E0390A1E9A1D5B00FB039A /* mainmenu.png in Resources */ = {isa = PBXBuildFile; fileRef = 84E039081E9A1D5B00FB039A /* mainmenu.png */; };
-		84E0390B1E9A1D5B00FB039A /* playagain.png in Resources */ = {isa = PBXBuildFile; fileRef = 84E039091E9A1D5B00FB039A /* playagain.png */; };
-		84E0390F1E9A215600FB039A /* GameMenu.png in Resources */ = {isa = PBXBuildFile; fileRef = 84E0390E1E9A215600FB039A /* GameMenu.png */; };
-		84E039111E9A21F600FB039A /* guide.png in Resources */ = {isa = PBXBuildFile; fileRef = 84E039101E9A21F600FB039A /* guide.png */; };
+		54D36B391E9A51AC0044A305 /* guide.png in Resources */ = {isa = PBXBuildFile; fileRef = 54D36B381E9A51AC0044A305 /* guide.png */; };
+		54D36B3E1E9A51B90044A305 /* mainmenu.png in Resources */ = {isa = PBXBuildFile; fileRef = 54D36B3A1E9A51B90044A305 /* mainmenu.png */; };
+		54D36B3F1E9A51B90044A305 /* playagain.png in Resources */ = {isa = PBXBuildFile; fileRef = 54D36B3B1E9A51B90044A305 /* playagain.png */; };
+		54D36B401E9A51B90044A305 /* ride.png in Resources */ = {isa = PBXBuildFile; fileRef = 54D36B3C1E9A51B90044A305 /* ride.png */; };
+		54D36B411E9A51B90044A305 /* shop.png in Resources */ = {isa = PBXBuildFile; fileRef = 54D36B3D1E9A51B90044A305 /* shop.png */; };
+		84AEA0E01E9BF14200E74877 /* GameMenu.png in Resources */ = {isa = PBXBuildFile; fileRef = 84AEA0DE1E9BF14200E74877 /* GameMenu.png */; };
+		84AEA0E11E9BF14200E74877 /* GameOver.png in Resources */ = {isa = PBXBuildFile; fileRef = 84AEA0DF1E9BF14200E74877 /* GameOver.png */; };
+		84AEA0E31E9BF33D00E74877 /* GameLevels.sks in Resources */ = {isa = PBXBuildFile; fileRef = 84AEA0E21E9BF33D00E74877 /* GameLevels.sks */; };
+		84AEA0E51E9BF34F00E74877 /* chooseLevel.png in Resources */ = {isa = PBXBuildFile; fileRef = 84AEA0E41E9BF34F00E74877 /* chooseLevel.png */; };
+		84AEA0E91E9BF35700E74877 /* easy.png in Resources */ = {isa = PBXBuildFile; fileRef = 84AEA0E61E9BF35700E74877 /* easy.png */; };
+		84AEA0EA1E9BF35700E74877 /* hard.png in Resources */ = {isa = PBXBuildFile; fileRef = 84AEA0E71E9BF35700E74877 /* hard.png */; };
+		84AEA0EB1E9BF35700E74877 /* normal.png in Resources */ = {isa = PBXBuildFile; fileRef = 84AEA0E81E9BF35700E74877 /* normal.png */; };
+		84AEA0ED1E9BF3F200E74877 /* GameLevels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AEA0EC1E9BF3F200E74877 /* GameLevels.swift */; };
 		84E039131E9A22F200FB039A /* PlayGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E039121E9A22F200FB039A /* PlayGame.swift */; };
 		84E039151E9A259A00FB039A /* PlayGame.sks in Resources */ = {isa = PBXBuildFile; fileRef = 84E039141E9A259A00FB039A /* PlayGame.sks */; };
 /* End PBXBuildFile section */
@@ -69,13 +75,19 @@
 		11F72EE91E99ECB500F8311E /* Enemy_Right.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Enemy_Right.swift; sourceTree = "<group>"; };
 		11F72EEB1E99ED8600F8311E /* EnemyLeft_Manager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnemyLeft_Manager.swift; sourceTree = "<group>"; };
 		11F72EED1E99EDEB00F8311E /* EnemyRight_Manager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnemyRight_Manager.swift; sourceTree = "<group>"; };
-		84E039021E9A1A6400FB039A /* GameOver.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = GameOver.png; path = ../../../../../Volumes/Untitled/ios/GameOver.png; sourceTree = "<group>"; };
-		84E039041E9A1D4E00FB039A /* ride.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ride.png; path = ../../../../../Volumes/Untitled/ios/ride.png; sourceTree = "<group>"; };
-		84E039051E9A1D4E00FB039A /* shop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = shop.png; path = ../../../../../Volumes/Untitled/ios/shop.png; sourceTree = "<group>"; };
-		84E039081E9A1D5B00FB039A /* mainmenu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mainmenu.png; path = ../../../../../Volumes/Untitled/ios/mainmenu.png; sourceTree = "<group>"; };
-		84E039091E9A1D5B00FB039A /* playagain.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = playagain.png; path = ../../../../../Volumes/Untitled/ios/playagain.png; sourceTree = "<group>"; };
-		84E0390E1E9A215600FB039A /* GameMenu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = GameMenu.png; path = ../../../../../Volumes/Untitled/ios/GameMenu.png; sourceTree = "<group>"; };
-		84E039101E9A21F600FB039A /* guide.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = guide.png; path = ../../../../../Volumes/Untitled/ios/guide.png; sourceTree = "<group>"; };
+		54D36B381E9A51AC0044A305 /* guide.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = guide.png; sourceTree = "<group>"; };
+		54D36B3A1E9A51B90044A305 /* mainmenu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mainmenu.png; sourceTree = "<group>"; };
+		54D36B3B1E9A51B90044A305 /* playagain.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = playagain.png; sourceTree = "<group>"; };
+		54D36B3C1E9A51B90044A305 /* ride.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ride.png; sourceTree = "<group>"; };
+		54D36B3D1E9A51B90044A305 /* shop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shop.png; sourceTree = "<group>"; };
+		84AEA0DE1E9BF14200E74877 /* GameMenu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = GameMenu.png; path = ../../../../../Volumes/Untitled/ios/GameMenu.png; sourceTree = "<group>"; };
+		84AEA0DF1E9BF14200E74877 /* GameOver.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = GameOver.png; path = ../../../../../Volumes/Untitled/ios/GameOver.png; sourceTree = "<group>"; };
+		84AEA0E21E9BF33D00E74877 /* GameLevels.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; name = GameLevels.sks; path = ../GameLevels.sks; sourceTree = "<group>"; };
+		84AEA0E41E9BF34F00E74877 /* chooseLevel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = chooseLevel.png; path = ../../../../../Volumes/Untitled/ios/chooseLevel.png; sourceTree = "<group>"; };
+		84AEA0E61E9BF35700E74877 /* easy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = easy.png; path = ../../../../../Volumes/Untitled/ios/easy.png; sourceTree = "<group>"; };
+		84AEA0E71E9BF35700E74877 /* hard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = hard.png; path = ../../../../../Volumes/Untitled/ios/hard.png; sourceTree = "<group>"; };
+		84AEA0E81E9BF35700E74877 /* normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = normal.png; path = ../../../../../Volumes/Untitled/ios/normal.png; sourceTree = "<group>"; };
+		84AEA0EC1E9BF3F200E74877 /* GameLevels.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GameLevels.swift; path = ../GameLevels.swift; sourceTree = "<group>"; };
 		84E039121E9A22F200FB039A /* PlayGame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PlayGame.swift; path = ../PlayGame.swift; sourceTree = "<group>"; };
 		84E039141E9A259A00FB039A /* PlayGame.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = PlayGame.sks; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -116,6 +128,8 @@
 				11F72EDB1E99E3D200F8311E /* Enemy */,
 				11F72EDA1E99E3BD00F8311E /* CarNode */,
 				1101EA961E7E38300030A906 /* AppDelegate.swift */,
+				84AEA0E21E9BF33D00E74877 /* GameLevels.sks */,
+				84AEA0EC1E9BF3F200E74877 /* GameLevels.swift */,
 				1101EA9A1E7E38300030A906 /* Actions.sks */,
 				11205F181E94F6020063FB6F /* ManHinh2Scene.swift */,
 				1101EA981E7E38300030A906 /* GameScene.sks */,
@@ -124,18 +138,22 @@
 				114529E31E969D340005C7DC /* GameOver.swift */,
 				84E039141E9A259A00FB039A /* PlayGame.sks */,
 				84E039121E9A22F200FB039A /* PlayGame.swift */,
-				1101EAB01E7E43850030A906 /* backgroun2.png */,
 				1101EA9E1E7E38300030A906 /* GameViewController.swift */,
 				1101EAA01E7E38300030A906 /* Main.storyboard */,
 				1101EAA31E7E38300030A906 /* Assets.xcassets */,
-				84E039101E9A21F600FB039A /* guide.png */,
-				84E0390E1E9A215600FB039A /* GameMenu.png */,
-				84E039041E9A1D4E00FB039A /* ride.png */,
-				84E039051E9A1D4E00FB039A /* shop.png */,
+				84AEA0E61E9BF35700E74877 /* easy.png */,
+				84AEA0E71E9BF35700E74877 /* hard.png */,
+				84AEA0E81E9BF35700E74877 /* normal.png */,
+				84AEA0E41E9BF34F00E74877 /* chooseLevel.png */,
+				1101EAB01E7E43850030A906 /* backgroun2.png */,
+				54D36B381E9A51AC0044A305 /* guide.png */,
+				54D36B3A1E9A51B90044A305 /* mainmenu.png */,
+				84AEA0DE1E9BF14200E74877 /* GameMenu.png */,
+				84AEA0DF1E9BF14200E74877 /* GameOver.png */,
+				54D36B3B1E9A51B90044A305 /* playagain.png */,
+				54D36B3C1E9A51B90044A305 /* ride.png */,
+				54D36B3D1E9A51B90044A305 /* shop.png */,
 				11D477A21E7E4E2C0049BC6E /* car1.png */,
-				84E039081E9A1D5B00FB039A /* mainmenu.png */,
-				84E039091E9A1D5B00FB039A /* playagain.png */,
-				84E039021E9A1A6400FB039A /* GameOver.png */,
 				114529E71E96A1C00005C7DC /* df488d76c14ee5d59df16a75817063c965524eb5.jpg */,
 				11205F1A1E94FF050063FB6F /* gameover.png */,
 				11D477A41E7E4EB20049BC6E /* car3.png */,
@@ -220,7 +238,6 @@
 				TargetAttributes = {
 					1101EA921E7E382F0030A906 = {
 						CreatedOnToolsVersion = 8.1;
-						DevelopmentTeam = ZTN88XGAW4;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -248,22 +265,27 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84E039111E9A21F600FB039A /* guide.png in Resources */,
-				84E0390A1E9A1D5B00FB039A /* mainmenu.png in Resources */,
 				114529E61E969D9A0005C7DC /* GameOver.sks in Resources */,
-				84E039031E9A1A6400FB039A /* GameOver.png in Resources */,
+				54D36B411E9A51B90044A305 /* shop.png in Resources */,
 				1101EAA21E7E38300030A906 /* Main.storyboard in Resources */,
-				84E0390F1E9A215600FB039A /* GameMenu.png in Resources */,
+				54D36B391E9A51AC0044A305 /* guide.png in Resources */,
+				84AEA0E01E9BF14200E74877 /* GameMenu.png in Resources */,
+				84AEA0E91E9BF35700E74877 /* easy.png in Resources */,
+				84AEA0EB1E9BF35700E74877 /* normal.png in Resources */,
 				11205F1B1E94FF050063FB6F /* gameover.png in Resources */,
 				84E039151E9A259A00FB039A /* PlayGame.sks in Resources */,
 				1101EA991E7E38300030A906 /* GameScene.sks in Resources */,
-				84E0390B1E9A1D5B00FB039A /* playagain.png in Resources */,
 				11D477A51E7E4EB20049BC6E /* car3.png in Resources */,
 				11D477A31E7E4E2C0049BC6E /* car1.png in Resources */,
-				84E039071E9A1D4E00FB039A /* shop.png in Resources */,
-				84E039061E9A1D4E00FB039A /* ride.png in Resources */,
+				84AEA0E31E9BF33D00E74877 /* GameLevels.sks in Resources */,
+				84AEA0E11E9BF14200E74877 /* GameOver.png in Resources */,
+				54D36B3F1E9A51B90044A305 /* playagain.png in Resources */,
+				54D36B3E1E9A51B90044A305 /* mainmenu.png in Resources */,
 				1101EAA41E7E38300030A906 /* Assets.xcassets in Resources */,
+				84AEA0EA1E9BF35700E74877 /* hard.png in Resources */,
+				84AEA0E51E9BF34F00E74877 /* chooseLevel.png in Resources */,
 				1101EAA71E7E38300030A906 /* LaunchScreen.storyboard in Resources */,
+				54D36B401E9A51B90044A305 /* ride.png in Resources */,
 				114529E81E96A1C00005C7DC /* df488d76c14ee5d59df16a75817063c965524eb5.jpg in Resources */,
 				1101EA9B1E7E38300030A906 /* Actions.sks in Resources */,
 				1101EAB11E7E43850030A906 /* backgroun2.png in Resources */,
@@ -289,6 +311,7 @@
 				11F72EEA1E99ECB500F8311E /* Enemy_Right.swift in Sources */,
 				11F72EE61E99E80E00F8311E /* ContactDelegate.swift in Sources */,
 				11F72EE11E99E56500F8311E /* Constants.swift in Sources */,
+				84AEA0ED1E9BF3F200E74877 /* GameLevels.swift in Sources */,
 				1101EA971E7E38300030A906 /* AppDelegate.swift in Sources */,
 				11205F191E94F6020063FB6F /* ManHinh2Scene.swift in Sources */,
 			);
@@ -411,7 +434,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = ZTN88XGAW4;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = MVP/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -426,7 +449,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = ZTN88XGAW4;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = MVP/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

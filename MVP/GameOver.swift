@@ -27,13 +27,13 @@ class GameMenu : SKScene {
             let touchLocation = touch.location(in: self)
             if atPoint(touchLocation).name == "startGame" {
                 let gameScene = SKScene(fileNamed: "GameScene")!
-                gameScene.scaleMode = .aspectFill
+               // gameScene.scaleMode = .aspectFill
                 view?.presentScene(gameScene, transition: SKTransition.doorsOpenHorizontal(withDuration: TimeInterval(2)))
             }
             
             if atPoint(touchLocation).name == "mainMenu" {
                 let gameScene = SKScene(fileNamed: "PlayGame")!
-                gameScene.scaleMode = .aspectFill
+              //  gameScene.scaleMode = .aspectFill
                 view?.presentScene(gameScene, transition: SKTransition.doorway(withDuration: TimeInterval(1)))
             }
             
