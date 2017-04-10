@@ -33,7 +33,7 @@ class GameMenu : SKScene {
             
             if atPoint(touchLocation).name == "mainMenu" {
                 let gameScene = SKScene(fileNamed: "PlayGame")!
-              //  gameScene.scaleMode = .aspectFill
+                gameScene.scaleMode = .aspectFill
                 view?.presentScene(gameScene, transition: SKTransition.doorway(withDuration: TimeInterval(1)))
             }
             

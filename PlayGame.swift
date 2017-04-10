@@ -24,6 +24,7 @@ class PlayGame : SKScene {
         for touch in touches {
             let touchLocation = touch.location(in: self)
             if atPoint(touchLocation).name == "startGame" {
+                print("Click Ride")
                 let gameScene = SKScene(fileNamed: "GameLevels")!
                // gameScene.scaleMode = .aspectFill
                 self.view?.presentScene(gameScene, transition: SKTransition.doorsOpenHorizontal(withDuration: TimeInterval(2)))

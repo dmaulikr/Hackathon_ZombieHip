@@ -38,12 +38,12 @@
 		54D36B411E9A51B90044A305 /* shop.png in Resources */ = {isa = PBXBuildFile; fileRef = 54D36B3D1E9A51B90044A305 /* shop.png */; };
 		84AEA0E01E9BF14200E74877 /* GameMenu.png in Resources */ = {isa = PBXBuildFile; fileRef = 84AEA0DE1E9BF14200E74877 /* GameMenu.png */; };
 		84AEA0E11E9BF14200E74877 /* GameOver.png in Resources */ = {isa = PBXBuildFile; fileRef = 84AEA0DF1E9BF14200E74877 /* GameOver.png */; };
+		84AEA0E31E9BF33D00E74877 /* GameLevels.sks in Resources */ = {isa = PBXBuildFile; fileRef = 84AEA0E21E9BF33D00E74877 /* GameLevels.sks */; };
 		84AEA0E51E9BF34F00E74877 /* chooseLevel.png in Resources */ = {isa = PBXBuildFile; fileRef = 84AEA0E41E9BF34F00E74877 /* chooseLevel.png */; };
 		84AEA0E91E9BF35700E74877 /* easy.png in Resources */ = {isa = PBXBuildFile; fileRef = 84AEA0E61E9BF35700E74877 /* easy.png */; };
 		84AEA0EA1E9BF35700E74877 /* hard.png in Resources */ = {isa = PBXBuildFile; fileRef = 84AEA0E71E9BF35700E74877 /* hard.png */; };
 		84AEA0EB1E9BF35700E74877 /* normal.png in Resources */ = {isa = PBXBuildFile; fileRef = 84AEA0E81E9BF35700E74877 /* normal.png */; };
-		84AEA0EF1E9BF9AD00E74877 /* GameLevels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AEA0EE1E9BF9AD00E74877 /* GameLevels.swift */; };
-		84AEA0F11E9BF9C700E74877 /* GameLevels.sks in Resources */ = {isa = PBXBuildFile; fileRef = 84AEA0F01E9BF9C700E74877 /* GameLevels.sks */; };
+		84AEA0ED1E9BF3F200E74877 /* GameLevels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AEA0EC1E9BF3F200E74877 /* GameLevels.swift */; };
 		84E039131E9A22F200FB039A /* PlayGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E039121E9A22F200FB039A /* PlayGame.swift */; };
 		84E039151E9A259A00FB039A /* PlayGame.sks in Resources */ = {isa = PBXBuildFile; fileRef = 84E039141E9A259A00FB039A /* PlayGame.sks */; };
 /* End PBXBuildFile section */
@@ -82,12 +82,12 @@
 		54D36B3D1E9A51B90044A305 /* shop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shop.png; sourceTree = "<group>"; };
 		84AEA0DE1E9BF14200E74877 /* GameMenu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = GameMenu.png; path = ../../../../../Volumes/Untitled/ios/GameMenu.png; sourceTree = "<group>"; };
 		84AEA0DF1E9BF14200E74877 /* GameOver.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = GameOver.png; path = ../../../../../Volumes/Untitled/ios/GameOver.png; sourceTree = "<group>"; };
+		84AEA0E21E9BF33D00E74877 /* GameLevels.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; name = GameLevels.sks; path = ../GameLevels.sks; sourceTree = "<group>"; };
 		84AEA0E41E9BF34F00E74877 /* chooseLevel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = chooseLevel.png; path = ../../../../../Volumes/Untitled/ios/chooseLevel.png; sourceTree = "<group>"; };
 		84AEA0E61E9BF35700E74877 /* easy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = easy.png; path = ../../../../../Volumes/Untitled/ios/easy.png; sourceTree = "<group>"; };
 		84AEA0E71E9BF35700E74877 /* hard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = hard.png; path = ../../../../../Volumes/Untitled/ios/hard.png; sourceTree = "<group>"; };
 		84AEA0E81E9BF35700E74877 /* normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = normal.png; path = ../../../../../Volumes/Untitled/ios/normal.png; sourceTree = "<group>"; };
-		84AEA0EE1E9BF9AD00E74877 /* GameLevels.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameLevels.swift; sourceTree = "<group>"; };
-		84AEA0F01E9BF9C700E74877 /* GameLevels.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameLevels.sks; sourceTree = "<group>"; };
+		84AEA0EC1E9BF3F200E74877 /* GameLevels.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GameLevels.swift; path = ../GameLevels.swift; sourceTree = "<group>"; };
 		84E039121E9A22F200FB039A /* PlayGame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PlayGame.swift; path = ../PlayGame.swift; sourceTree = "<group>"; };
 		84E039141E9A259A00FB039A /* PlayGame.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = PlayGame.sks; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -128,9 +128,9 @@
 				11F72EDB1E99E3D200F8311E /* Enemy */,
 				11F72EDA1E99E3BD00F8311E /* CarNode */,
 				1101EA961E7E38300030A906 /* AppDelegate.swift */,
+				84AEA0E21E9BF33D00E74877 /* GameLevels.sks */,
+				84AEA0EC1E9BF3F200E74877 /* GameLevels.swift */,
 				1101EA9A1E7E38300030A906 /* Actions.sks */,
-				84AEA0EE1E9BF9AD00E74877 /* GameLevels.swift */,
-				84AEA0F01E9BF9C700E74877 /* GameLevels.sks */,
 				11205F181E94F6020063FB6F /* ManHinh2Scene.swift */,
 				1101EA981E7E38300030A906 /* GameScene.sks */,
 				1101EA9C1E7E38300030A906 /* GameScene.swift */,
@@ -277,13 +277,13 @@
 				1101EA991E7E38300030A906 /* GameScene.sks in Resources */,
 				11D477A51E7E4EB20049BC6E /* car3.png in Resources */,
 				11D477A31E7E4E2C0049BC6E /* car1.png in Resources */,
+				84AEA0E31E9BF33D00E74877 /* GameLevels.sks in Resources */,
 				84AEA0E11E9BF14200E74877 /* GameOver.png in Resources */,
 				54D36B3F1E9A51B90044A305 /* playagain.png in Resources */,
 				54D36B3E1E9A51B90044A305 /* mainmenu.png in Resources */,
 				1101EAA41E7E38300030A906 /* Assets.xcassets in Resources */,
 				84AEA0EA1E9BF35700E74877 /* hard.png in Resources */,
 				84AEA0E51E9BF34F00E74877 /* chooseLevel.png in Resources */,
-				84AEA0F11E9BF9C700E74877 /* GameLevels.sks in Resources */,
 				1101EAA71E7E38300030A906 /* LaunchScreen.storyboard in Resources */,
 				54D36B401E9A51B90044A305 /* ride.png in Resources */,
 				114529E81E96A1C00005C7DC /* df488d76c14ee5d59df16a75817063c965524eb5.jpg in Resources */,
@@ -311,7 +311,7 @@
 				11F72EEA1E99ECB500F8311E /* Enemy_Right.swift in Sources */,
 				11F72EE61E99E80E00F8311E /* ContactDelegate.swift in Sources */,
 				11F72EE11E99E56500F8311E /* Constants.swift in Sources */,
-				84AEA0EF1E9BF9AD00E74877 /* GameLevels.swift in Sources */,
+				84AEA0ED1E9BF3F200E74877 /* GameLevels.swift in Sources */,
 				1101EA971E7E38300030A906 /* AppDelegate.swift in Sources */,
 				11205F191E94F6020063FB6F /* ManHinh2Scene.swift in Sources */,
 			);
