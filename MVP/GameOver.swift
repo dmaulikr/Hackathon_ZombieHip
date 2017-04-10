@@ -26,17 +26,16 @@ class GameMenu : SKScene {
         for touch in touches {
             let touchLocation = touch.location(in: self)
             if atPoint(touchLocation).name == "startGame" {
-                let gameScene = SKScene(fileNamed: "GameScene")!
-               // gameScene.scaleMode = .aspectFill
+                let gameScene = SKScene(fileNamed: "GameLevels")!
+             gameScene.scaleMode = .aspectFill
                 view?.presentScene(gameScene, transition: SKTransition.doorsOpenHorizontal(withDuration: TimeInterval(2)))
             }
-            
             if atPoint(touchLocation).name == "mainMenu" {
-                let gameScene = SKScene(fileNamed: "PlayGame")!
+                let gameScene = SKScene(fileNamed: "GameLevels")!
                 gameScene.scaleMode = .aspectFill
-                view?.presentScene(gameScene, transition: SKTransition.doorway(withDuration: TimeInterval(1)))
+                view?.presentScene(gameScene, transition: SKTransition.doorsOpenHorizontal(withDuration: TimeInterval(2)))
             }
-            
+
         }
     }
 }
